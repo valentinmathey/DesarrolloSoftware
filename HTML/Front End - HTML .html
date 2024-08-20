@@ -1,10 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <title>INICIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End HTML</title>
+    <style>
+        body { 
+            font-family: 'Times New Roman', Times, serif; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        tfoot {
+            background-color: #706d6d;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1 id="primer-titulo">1. Estructura Básica del Documento HTML</h1>
+        <p>Este documento HTML tiene una estructura básica que incluye una declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+        <span style="color: blue; font-weight: bold;">Este es un texto en negrita y azul dentro de un span.</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#primer-titulo">Ir al primer título</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>2. Encabezados y Propiedades del Texto</h2>
+            <div>
+                <p><b>Este es un texto en negrita</b></p>
+                <p><i>Este es un texto en cursiva</i></p>
+                <p><u>Este es un texto subrayado</u></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Divisiones y Agrupación de Contenido</h2>
+            <div>
+                <article>
+                    <h3>Sección 1</h3>
+                    <p>Contenido de la primera sección agrupada en un div.</p>
+                </article>
+                <article>
+                    <h3>Sección 2</h3>
+                    <p>Contenido de la segunda sección agrupada en un div.</p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Enlaces y Listas</h2>
+            <div>
+                <p>Visita nuestro <a href="https://github.com/valentinmathey" target="_blank">sitio web</a> para más información.</p>
+                <div>
+                    <h3>Listas</h3>
+                    <div>
+                        <h4>Lista desordenada:</h4>
+                        <ul>
+                            <li>Primer ítem de una lista desordenada</li>
+                            <li>Segundo ítem de una lista desordenada</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Lista ordenada:</h4>
+                        <ol>
+                            <li>Primer ítem de una lista ordenada</li>
+                            <li>Segundo ítem de una lista ordenada</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="multimedia">
+            <h2>5. Elementos Multimedia</h2>  
+            <div>
+                <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" width="300px" height="250px" alt="imagen">
+                <video width="320" height="240" controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                </video>
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </section>
+
+        <section>
+            <h2>6. Tablas</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Dato 3</td>
+                            <td>Dato 4</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <section id="formulario">
+            <h2>7. Formularios</h2>
+            <div>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required><br><br>
+                    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required><br><br>
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required><br><br>
+                    
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Ingresa tu contraseña" required><br><br>
+                    
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha" required><br><br>
+            
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="4" cols="50"></textarea><br><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sitio Web Valentin Mathey. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
+
