@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cabecera {
+    background-color: #333;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.cita{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    color: #888;
+    padding: 0.5rem;
+}
+
+.subtitulo{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #333;
+}
+
+.parrafosub{
+    font-size: small;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.citaq{
+    font-style: italic;
+    color: #777474;
+    background-color: #ccc;
+    padding: 0.5rem;
+    border-left: 5px solid #777474;
+    margin-bottom: 3rem;
+}
+
+.caja1{
+    background-color: #fff;
+    border:1px solid #333;
+    margin: 10px;
+    padding-left: 0.8rem;
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px 0px black;
+    margin-bottom: 1rem;
+}
+
+.caja2{
+    background-color: #e0b24c;
+    border:3px solid #333;
+    margin: 10px;
+    padding-left: 0.8rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 0px black;
+    margin-bottom: 3rem;
+}
+
+.relativo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border: 1px solid #cfcbcb;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    text-decoration: solid;
+}
+
+.absoluto {
+    position: absolute;
+    top: 50px;
+    left: 47rem;
+    background-color: #26a69a;
+    color: white;
+    padding-left: 0.8rem;
+    width: 700px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #be60d1; 
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 10px auto;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cabecera {
+        width: 96vw;
+        margin: 0px;
+    }
+
+    .absoluto {
+        position: relative;
+        width: 95%; 
+        top: 0px;
+        left: 0px;
+        background-color: #26a69a;
+        padding: 10px;
+        border: 1px solid #cfcbcb;
+        text-decoration: solid;
+    }
+
+}
