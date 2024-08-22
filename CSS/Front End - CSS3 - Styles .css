@@ -5,8 +5,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 10px auto;
+    margin: 10px;
     background-color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -123,6 +122,7 @@ body {
     gap: 1rem;
     margin-bottom: 2rem;
 }
+
 .element{
     background-color: #8c9afc;
     border: 2px solid #184ddd;
@@ -131,4 +131,118 @@ body {
     margin: 1rem;
     padding: 1rem;
     text-align: center;
+}
+
+.element:hover{
+    background-color: #ff0000;
+    color: #000000;
+}
+
+.container-flex{
+    background-color: #26a69a;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.elementFlex{
+    background-color: #ff0000;
+    border: 2px solid #184ddd;
+    border-radius: 10px;
+    color: #000000;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+}
+
+.elementFlex:hover{
+    background-color: #8c9afc;
+    color: #ffffff;
+}
+
+.figuras{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 0.5s ease;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cuadrado:hover {
+    background-color: blue;
+    transform: rotate(360deg);
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    animation: circuloAnimacion 8s infinite;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 20px;
+}
+
+.circulo:hover{
+    transform: scale(1.5);
+}
+
+@keyframes circuloAnimacion {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 300px;
+    }
+
+    20% {
+        left: 200px;
+    }
+
+    30% {
+        left: 300px;
+    }
+
+    40% {
+        left: 0px;
+    }
+
+    50% {
+        left: -300px;
+    }
+
+    60% {
+        left: -200px;
+    }
+
+    70% {
+        left: -300px;
+    }
+
+    80% {
+        left: 0px;
+    }
+
+    100%{
+        background-color: yellow;
+    }
+    
 }
