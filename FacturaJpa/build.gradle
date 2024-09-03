@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Hibernate para ORM y Envers para auditoría
+    implementation 'org.hibernate:hibernate-core:5.6.12.Final'
+    implementation 'org.hibernate:hibernate-envers:5.6.12.Final'
+    implementation 'org.hibernate:hibernate-entitymanager:5.6.10.Final'
+
+    // Lombok para simplificar la escritura de código
+    implementation 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    // Jackson para la manipulación de JSON
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
+
+    // H2 como base de datos en memoria para desarrollo y pruebas
+    runtimeOnly 'com.h2database:h2:2.3.232'
+
+    // JUnit para pruebas unitarias
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    implementation 'com.zaxxer:HikariCP:5.0.1'
+
+}
+
+
+test {
+    useJUnitPlatform()
+}
