@@ -41,6 +41,34 @@ El objetivo principal de este repositorio es proporcionar un entorno de aprendiz
 
 •	Principios de Animaciones en CSS
 
+📌 Persistencia con JPA e Hibernate
+
+•	Introducción y conceptos
+
+•	Configuración del Proyecto
+
+•	Creación de Entidades
+
+•	Introducción a Relaciones de Base de datos
+
+•	@OneToOne unidireccional y bidireccional
+
+•	Repaso Relación @OneToOne
+
+•	@ManyToOne unidireccional y bidireccional
+
+•	@OneToMany unidireccional
+
+•	@OneToMany bidireccional
+
+•	Repaso de relación @OneToMany
+
+•	Repaso de relación Artículo - DetalleFactura
+
+•	@ManyToMany unidireccional y bidireccional
+
+•	Persistiendo una factura con todos sus datos
+
 📌 JavaScript
 
 •	Introducción a Javascript
@@ -106,34 +134,6 @@ El objetivo principal de este repositorio es proporcionar un entorno de aprendiz
 •	AppFinal Parte 1
 
 •	AppFinal Parte 2
-
-📌 Persistencia con JPA e Hibernate
-
-•	Introducción y conceptos
-
-•	Configuración del Proyecto
-
-•	Creación de Entidades
-
-•	Introducción a Relaciones de Base de datos
-
-•	@OneToOne unidireccional y bidireccional
-
-•	Repaso Relación @OneToOne
-
-•	@ManyToOne unidireccional y bidireccional
-
-•	@OneToMany unidireccional
-
-•	@OneToMany bidireccional
-
-•	Repaso de relación @OneToMany
-
-•	Repaso de relación Artículo - DetalleFactura
-
-•	@ManyToMany unidireccional y bidireccional
-
-•	Persistiendo una factura con todos sus datos
 
 # 💻 Tech Stack:
 <div align="center">
