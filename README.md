@@ -111,7 +111,7 @@ El objetivo principal de este repositorio es proporcionar un entorno de aprendiz
 
 •	Introducción y conceptos
 
-•	Configuración del Proyecto - Omitir
+•	Configuración del Proyecto
 
 •	Creación de Entidades
 
