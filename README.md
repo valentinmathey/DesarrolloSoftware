@@ -69,6 +69,12 @@ El objetivo principal de este repositorio es proporcionar un entorno de aprendiz
 
 •	Persistiendo una factura con todos sus datos
 
+📌 Auditoria de entidades con Hibernate Envers
+
+•	Configurando el proyecto
+
+•	Probando el funcionamiento
+
 📌 JavaScript
 
 •	Introducción a Javascript
