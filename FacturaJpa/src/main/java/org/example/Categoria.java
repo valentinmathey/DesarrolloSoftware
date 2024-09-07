@@ -2,8 +2,9 @@ package org.example;
 
 import javax.persistence.*;
 import lombok.*;
-import java.util.HashSet;
-import java.util.Set;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -11,18 +12,21 @@ import java.util.Set;
 @Builder
 @Entity
 @Table(name = "Categoria")
-public class Categoria {
+public class Categoria implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "denominacion")
     private String denominacion;
 
     @ManyToMany(mappedBy = "categorias")
     @EqualsAndHashCode.Exclude  // Evita la recursión en equals() y hashCode()
     @ToString.Exclude // Evita la recursión en toString()
     @Builder.Default
-    private Set<Articulo> articulos = new HashSet<>();
+    private List<Articulo> articulos = new ArrayList<Articulo>();
 
 }

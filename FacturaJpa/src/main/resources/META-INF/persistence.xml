@@ -21,8 +21,8 @@
             <!-- Mostrar SQL en la consola -->
             <property name="hibernate.show_sql" value="true"/>
 
-            <!-- Generar esquemas de base de datos / poner el value en created en la primer ejecución -->
-            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <!-- Generar esquemas de base de datos / poner el value en create en la primer ejecución / drop para borrar las tablas anteriores / update para aztualizar datos  -->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
 
             <!-- Configurar el dialecto de H2 -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
