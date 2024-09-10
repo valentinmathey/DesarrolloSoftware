@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Practico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Práctico de JavaScript</h1>
+
+  <!-- Ejercicio 1.2 - Suma  a + b = c -->
+  <div class="exercise-container">
+    <h2>Ejercicio 1.2 - Suma a + b = c</h2>
+    <button id="btn-ejercicio1_2">Sumar números</button>
+  </div>
+
+  <!-- Ejercicio 1.3 - Nombre del usuario -->
+  <div class="exercise-container">
+    <h2>Ejercicio 1.3 - Nombre del Usuario</h2>
+    <button id="btn-ejercicio1_3">Solicitar Nombre</button>
+  </div>
+
+  <!-- Ejercicio 2.1 - Mayor de a y b -->
+  <div class="exercise-container">
+    <h2>Ejercicio 2.1 - Mayor de a y b</h2>
+    <button id="btn-ejercicio2_1">Comparar números</button>
+  </div>
+
+  <!-- Ejercicio 2.2 - Par o Impar -->
+  <div class="exercise-container">
+    <h2>Ejercicio 2.2 - Determinar Par o Impar</h2>
+    <button id="btn-ejercicio2_2">Determinar Par o Impar</button>
+  </div>
+
+  <!-- Ejercicio 3.1 - Bucle while -->
+  <div class="exercise-container">
+    <h2>Ejercicio 3.1 - Bucle While</h2>
+    <button id="btn-bucleWhile">Ejecutar Bucle While</button>
+  </div>
+
+  <!-- Ejercicio 3.2 - Bucle do...while -->
+  <div class="exercise-container">
+    <h2>Ejercicio 3.2 - Bucle Do...While</h2>
+    <button id="btn-bucleDoWhile">Ejecutar Bucle Do...While</button>
+  </div>
+
+  <!-- Ejercicio 4.1 - Función esPar -->
+  <div class="exercise-container">
+    <h2>Ejercicio 4.1 - Función esPar</h2>
+    <button id="btn-esPar">Probar si es Par</button>
+  </div>
+
+  <!-- Ejercicio 4.2 - Convertir Celsius a Fahrenheit -->
+  <div class="exercise-container">
+    <h2>Ejercicio 4.2 - Convertir Celsius a Fahrenheit</h2>
+    <button id="btn-convertirTemperatura">Convertir Celsius a Fahrenheit</button>
+  </div>
+
+  <!-- Ejercicio 5.1 - Objeto Persona -->
+  <div class="exercise-container">
+    <h2>Ejercicio 5.1 - Objeto Persona</h2>
+    <button id="btn-cambiarCiudad">Cambiar Ciudad de la Persona</button>
+  </div>
+
+  <!-- Ejercicio 5.2 - Objeto Libro -->
+  <div class="exercise-container">
+    <h2>Ejercicio 5.2 - Objeto Libro</h2>
+    <button id="btn-verificarAntiguedadLibro">Verificar si el libro es antiguo</button>
+  </div>
+
+  <!-- Ejercicio 6.1 - Array Multiplicado -->
+  <div class="exercise-container">
+    <h2>Ejercicio 6.1 - Multiplicar Array</h2>
+    <button id="btn-multiplicarArray">Multiplicar Números</button>
+  </div>
+
+  <!-- Ejercicio 6.2 - Array Pares -->
+  <div class="exercise-container">
+    <h2>Ejercicio 6.2 - Generar Pares</h2>
+    <button id="btn-generarPares">Generar Pares</button>
+  </div>
+
+  <!-- Ejercicio 7.1 - Cambiar color de párrafos -->
+  <div class="exercise-container">
+    <h2>Ejercicio 7.1 - Cambiar color de párrafos</h2>
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p>
+    <p>Parrafo 3</p>
+    <button id="btn-cambiarColor">Cambiar color a azul</button>
+    <button id="btn-cambiarColorNegro">Cambiar color a negro</button>
+  </div>
+
+  <!-- Ejercicio 7.2 - Formulario -->
+  <div class="exercise-container">
+    <h2>Ejercicio 7.2 - Mostrar valor del formulario</h2>
+    <form onsubmit="mostrarAlerta(); return false;">
+      <label for="campoTexto">Ingrese un texto: </label>
+      <input type="text" id="campoTexto">
+      <button type="submit" id="btn-mostrarAlerta">Mostrar valor</button>
+    </form>
+  </div>
+
+  <!-- Ejercicio 8.1 - Evento en Lista -->
+  <div class="exercise-container">
+    <h2>Ejercicio 8.1 - Evento en Lista</h2>
+    <ul id="listaElementos">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+    <button id="btn-mostrarLista">Mostrar Elementos en Consola</button>
+  </div>
+
+  <!-- Ejercicio 8.2 - Deshabilitar Campo de Texto -->
+  <div class="exercise-container">
+    <h2>Ejercicio 8.2 - Deshabilitar Campo de Texto</h2>
+    <input type="text" placeholder="Ingrese algo" id="campoTexto2">
+    <button id="btn-deshabilitar">Deshabilitar Campo</button>
+    <button id="btn-habilitar">Habilitar Campo</button>
+  </div>
+
+  <!-- Ejercicio 9.1 - LocalStorage -->
+  <div class="exercise-container">
+    <h2>Ejercicio 9.1 - LocalStorage</h2>
+    <form onsubmit="guardarCorreo(); return false;">
+      <label for="correo">Correo Electrónico: </label>
+      <input type="email" placeholder="Example@gmail.com" id="correo">
+      <button type="submit" id="btn-guardarCorreo">Guardar Correo</button>
+    </form>
+    <div id="correoGuardado"></div>
+    <button id="btn-eliminarCorreo">Eliminar Correo Guardado</button>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
