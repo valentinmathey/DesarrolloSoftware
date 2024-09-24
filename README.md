@@ -5,6 +5,78 @@
 El objetivo principal de este repositorio es proporcionar un entorno de aprendizaje completo para desarrollar habilidades en diversas tecnologías, incluyendo HTML, CSS, JavaScript, TypeScript, React, Java, y Spring Boot. A través de ejercicios prácticos y proyectos, buscamos que los estudiantes adquieran competencias clave para enfrentar desafíos reales en el desarrollo de software.
 
 ## 📂Contenido
+📌 Persistencia con JPA e Hibernate
+
+•	Introducción y conceptos
+
+•	Configuración del Proyecto
+
+•	Creación de Entidades
+
+•	Introducción a Relaciones de Base de datos
+
+•	@OneToOne unidireccional y bidireccional
+
+•	Repaso Relación @OneToOne
+
+•	@ManyToOne unidireccional y bidireccional
+
+•	@OneToMany unidireccional
+
+•	@OneToMany bidireccional
+
+•	Repaso de relación @OneToMany
+
+•	Repaso de relación Artículo - DetalleFactura
+
+•	@ManyToMany unidireccional y bidireccional
+
+•	Persistiendo una factura con todos sus datos
+
+📌 Auditoria de entidades con Hibernate Envers
+
+•	Configurando el proyecto
+
+•	Probando el funcionamiento
+
+📌 API REST con Spring Boot
+
+• Introducción
+
+• Creación y configuración del proyecto
+
+• Creando el modelo de datos (JPA/Hibernate)
+
+• Creación de Repositorio y Servicio
+
+• Completando los métodos del Servicio
+
+• Creando la capa Controlador
+
+• Probando la API con Postman
+
+📌 API REST Avanzado con Spring Boot
+
+• Reutilización de código (@MappedSuperclass y código genérico)
+
+• Repositorios y Servicios Genéricos
+
+• Controladores Genéricos
+
+• Completando el modelo de datos: creación de relaciones
+
+• Probando la API con Postman
+
+• JPA Queries: @Query & Query Methods
+
+• Implementación y prueba de queries
+
+• Paginación
+
+• Probando la paginación con Postman
+
+• Patrón DTO
+
 📌 HTML
 
 •	Nuestro primer Html
@@ -40,40 +112,6 @@ El objetivo principal de este repositorio es proporcionar un entorno de aprendiz
 •	Principios de Grid en CSS
 
 •	Principios de Animaciones en CSS
-
-📌 Persistencia con JPA e Hibernate
-
-•	Introducción y conceptos
-
-•	Configuración del Proyecto
-
-•	Creación de Entidades
-
-•	Introducción a Relaciones de Base de datos
-
-•	@OneToOne unidireccional y bidireccional
-
-•	Repaso Relación @OneToOne
-
-•	@ManyToOne unidireccional y bidireccional
-
-•	@OneToMany unidireccional
-
-•	@OneToMany bidireccional
-
-•	Repaso de relación @OneToMany
-
-•	Repaso de relación Artículo - DetalleFactura
-
-•	@ManyToMany unidireccional y bidireccional
-
-•	Persistiendo una factura con todos sus datos
-
-📌 Auditoria de entidades con Hibernate Envers
-
-•	Configurando el proyecto
-
-•	Probando el funcionamiento
 
 📌 JavaScript
 
