@@ -18,7 +18,7 @@ public class Persona extends Base {
     @Column(name = "nombre")
     private String nombre;
 
-    @Column(name = "apelido")
+    @Column(name = "apellido")
     private String apellido;
 
     @Column(name = "dni")
