@@ -133,6 +133,40 @@ El objetivo principal de este repositorio es proporcionar un entorno de aprendiz
 
 •	LocalStorage y SessionStorage
 
+📌 Temario del Ejercicio Integrador de HTML, CSS y Javascript
+
+• Introducción Proyecto final
+
+• Header de nuestra aplicación
+
+• División de nuestro main
+
+• Categorías
+
+• Creación y estilo popUp
+
+• Abrir y cerrar popUp, tomar valores de los inputs
+
+• LocalStorage
+
+• Guardar productos en LocalStorage
+
+• Vista de la store
+
+• Estilos de la store
+
+• Producto activo
+
+• Filtro por categorías
+
+• Refactor de código y barra de búsqueda
+
+• Eliminar un elemento
+
+• Alertas
+
+• Media queries y fin del curso
+
 📌 TypeScript
 
 •	Instalaciones necesarias
