@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntegradorJS</title>
+    <!-- ======= STYLES ======= -->
+    <link rel="stylesheet" href="./style.css"/>
+    <!-- ======= FONTS ======= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- ======= ICONS ======= -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <!-- ======= HEADER ======= -->
+    <header>
+      <div class="container_principalHeader">
+        <div class="container_contentHeader">
+
+          <!-- ======= SEARCH BAR ======= -->
+          <div class="headerSearch">
+            <input class="inputHeader" id="inputHeader" placeholder="Ingrese un elemento" type="text" />
+            <button id="buttonSearch" class="buttonSearch">Buscar
+              <span class="material-symbols-outlined">search</span>
+            </button>
+          </div>
+  
+          <!-- ======= BUTTON ADD ELEMENT ======= -->
+          <div>
+            <button id="buttonAddElement" class="header_buttonAdd">Agregar elemento
+              <span class="material-symbols-outlined">add_box</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- ======= MAIN ======= -->
+    <main>
+      <div class="container_view">
+        <!-- ======= ASIDE: CATEGORÍAS ======= -->
+        <aside class="listAside">
+          <h2>Categorias
+            <span class="material-symbols-outlined">filter_list</span>
+          </h2>
+          <ul id="listFilter"></ul>
+        </aside>
+
+        <!-- ======= STORE CONTAINER ======= -->
+        <div class="store" id="storeContainer">
+        </div>
+      </div>
+
+      <!-- ======= POPUP ======= -->
+      <div class="popUPContainer_principal" id="modalPopUP">
+        <div class="popUPContainer">
+
+          <!-- ======= POPUP HEADER ======= -->
+          <div class="containerTitlePopUP">
+            <h1>Agregar o modificar producto</h1>
+          </div>
+            
+          <!-- ======= INPUTS POPUP ======= -->
+          <div class="containerInputs_popUP">
+            <input placeholder="Ingrese un nombre" id="nombre" type="text"/>
+            <input placeholder="Ingrese una imagen" id="img" type="text"/>
+            <input placeholder="precio" value="0" id="precio" type="number"/>
+            <select id="categoria">
+              <option>Selecciona una categoria</option>
+              <option>Gaseosas</option>
+              <option>Hamburguesas</option>
+              <option>Papas</option>
+            </select>
+          </div>
+
+          <!-- ======= POPUP BUTTONS ======= -->
+          <div class="containerButtonsPopUP">
+            <button class="btnPopUP cancel" id="cancelButton">Cancelar</button>
+            <button class="btnPopUP accept" id="acceptButton">Aceptar</button>
+            <button class="btnPopUP delete" id="deleteButton">Eliminar</button>
+          </div>
+              
+        </div>
+      </div>  
+    </main>
+
+    <!-- ======= SCRIPTS ======= -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
