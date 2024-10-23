@@ -1,0 +1,38 @@
+# Dependencias de Node.js
+node_modules/
+
+# Salida de compilación de TypeScript
+dist/
+build/
+
+# Reportes de cobertura de Jest
+coverage/
+
+# Archivos de configuración de Jest
+jest-config.js
+jest.config.js
+
+# Archivos de lock de dependencias
+package-lock.json
+yarn.lock
+
+# Archivos de caché del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de caché de editor
+.idea/
+.vscode/
+*.swp
+
+# Archivos generados por TypeScript
+*.js
+*.js.map
+
+# Carpetas de pruebas compiladas si las exportas a otra ubicación
+test/**/*.js
+test/**/*.js.map
+
+# Otros archivos temporales
+*.log
+*.tmp
