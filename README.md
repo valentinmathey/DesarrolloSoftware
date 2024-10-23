@@ -228,6 +228,18 @@ El objetivo principal de este repositorio es proporcionar un entorno de aprendiz
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="springboot logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" alt="jest logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" height="40" alt="junit logo"  />
+  <img width="12" />
+  <img src="https://javadoc.io/static/org.mockito/mockito-core/3.6.0/org/mockito/logo.png" height="40" alt="mockito logo"  />
+  <img width="12" />
+  <img src="https://h2database.com/html/images/h2-logo-2.png" height="40" alt="h2 logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo" />
 </div>
 
 # 🧑🏻‍💻 Autor:
