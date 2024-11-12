@@ -5,213 +5,97 @@
 El objetivo principal de este repositorio es proporcionar un entorno de aprendizaje completo para desarrollar habilidades en diversas tecnologías, incluyendo HTML, CSS, JavaScript, TypeScript, React, Java, y Spring Boot. A través de ejercicios prácticos y proyectos, buscamos que los estudiantes adquieran competencias clave para enfrentar desafíos reales en el desarrollo de software.
 
 ## 📂Contenido
-📌 Persistencia con JPA e Hibernate
 
-•	Introducción y conceptos
-
-•	Configuración del Proyecto
-
-•	Creación de Entidades
-
-•	Introducción a Relaciones de Base de datos
-
-•	@OneToOne unidireccional y bidireccional
-
-•	Repaso Relación @OneToOne
-
-•	@ManyToOne unidireccional y bidireccional
-
-•	@OneToMany unidireccional
-
-•	@OneToMany bidireccional
-
-•	Repaso de relación @OneToMany
-
-•	Repaso de relación Artículo - DetalleFactura
-
-•	@ManyToMany unidireccional y bidireccional
-
-•	Persistiendo una factura con todos sus datos
-
-📌 Auditoria de entidades con Hibernate Envers
-
-•	Configurando el proyecto
-
-•	Probando el funcionamiento
-
-📌 API REST con Spring Boot
-
-• Introducción
-
-• Creación y configuración del proyecto
-
-• Creando el modelo de datos (JPA/Hibernate)
-
-• Creación de Repositorio y Servicio
-
-• Completando los métodos del Servicio
-
-• Creando la capa Controlador
-
-• Probando la API con Postman
-
-📌 API REST Avanzado con Spring Boot
-
-• Reutilización de código (@MappedSuperclass y código genérico)
-
-• Repositorios y Servicios Genéricos
-
-• Controladores Genéricos
-
-• Completando el modelo de datos: creación de relaciones
-
-• Probando la API con Postman
-
-• JPA Queries: @Query & Query Methods
-
-• Implementación y prueba de queries
-
-• Paginación
-
-• Probando la paginación con Postman
-
-• Patrón DTO
-
-📌 HTML
-
-•	Nuestro primer Html
-
-•	Partes Html y encabezados
-
-•	Divs y Propiedades de texto HTML
-
-•	Links y listas en HTML
-
-•	Elementos Multimedia HTML
-
-•	Tablas o grillas Html
-
-•	Formularios Html
-
-•	Semántica Html
-
-📌 CSS
-
-•	Introducción a CSS
-
-•	Propiedades de Texto en CSS
-
-•	Propiedades de Caja en CSS
-
-•	Posición Absoluta y Relativa
-
-•	Media Queries en CSS
-
-•	Principios de Flex Box en CSS
-
-•	Principios de Grid en CSS
-
-•	Principios de Animaciones en CSS
-
-📌 JavaScript
-
-•	Introducción a Javascript
-
-•	Operadores lógicos y condicionales
-
-•	Operadores de asignación y bucles
-
-•	Funciones de JavaScript
-
-•	Objetos en Javascript
-
-•	Arrays
-
-•	Introducción al DOM
-
-•	Eventos en DOM
-
-•	LocalStorage y SessionStorage
-
-📌 Temario del Ejercicio Integrador de HTML, CSS y Javascript
-
-• Introducción Proyecto final
-
-• Header de nuestra aplicación
-
-• División de nuestro main
-
-• Categorías
-
-• Creación y estilo popUp
-
-• Abrir y cerrar popUp, tomar valores de los inputs
-
-• LocalStorage
-
-• Guardar productos en LocalStorage
-
-• Vista de la store
-
-• Estilos de la store
-
-• Producto activo
-
-• Filtro por categorías
-
-• Refactor de código y barra de búsqueda
-
-• Eliminar un elemento
-
-• Alertas
-
-• Media queries y fin del curso
-
-📌 TypeScript
-
-•	Instalaciones necesarias
-
-•	Modo Observador
-
-•	Tipos de datos
-
-•	Datos primitivos
-
-•	Any (cualquier dato)
-
-•	Arrays
-
-•	Objetos literales (introducción)
-
-•	Type personalizado
-
-•	Interface
-
-•	Clases y POO
-
-•	Encapsulamiento y genéricos
-
-📌 React
-
-•	Introducción a React
-
-•	React con TypeScript
-
-•	Nuestro primer proyecto
-
-•	Nuestro primer componente
-
-•	Hook useState
-
-•	Hook useEffect
-
-•	CustomHook useForm parte 1
-
-•	CustomHook useForm parte 2
-
-•	AppFinal Parte 1
-
-•	AppFinal Parte 2
+### 📌 Persistencia con JPA e Hibernate
+- Introducción y conceptos
+- Configuración del Proyecto
+- Creación de Entidades
+- Relaciones de Base de Datos
+  - @OneToOne unidireccional y bidireccional
+  - @ManyToOne unidireccional y bidireccional
+  - @OneToMany unidireccional y bidireccional
+  - @ManyToMany unidireccional y bidireccional
+- Persistencia de una factura completa con todos sus datos
+
+### 📌 Auditoría de Entidades con Hibernate Envers
+- Configuración del proyecto
+- Pruebas de funcionamiento
+
+### 📌 API REST con Spring Boot
+- Introducción
+- Creación y configuración del proyecto
+- Modelo de datos con JPA/Hibernate
+- Creación de Repositorio y Servicio
+- Creación de la capa Controlador
+- Pruebas de la API con Postman
+
+### 📌 API REST Avanzada con Spring Boot
+- Reutilización de código (@MappedSuperclass y código genérico)
+- Repositorios y Servicios Genéricos
+- Controladores Genéricos
+- Relaciones en el modelo de datos
+- Queries avanzadas (JPA Queries, @Query & Query Methods)
+- Paginación
+- Implementación del Patrón DTO
+
+### 📌 HTML
+- Introducción y estructura básica de HTML
+- Elementos multimedia y tablas
+- Formularios y semántica HTML
+- Etiquetas semánticas: `<article>`, `<section>`, `<aside>`, `<header>`, `<footer>`
+- Listas y navegación (listas anidadas y `<nav>`)
+- Elementos de accesibilidad (atributos ARIA)
+
+### 📌 CSS
+- Introducción a CSS y propiedades de texto
+- Posicionamiento y layout (Flexbox y Grid)
+- Media Queries y animaciones CSS
+- Variables CSS y custom properties
+- Pseudo-clases y pseudo-elementos (`:hover`, `:active`, `::before`, `::after`)
+- Diseño adaptable (Responsive Design)
+- Transiciones y transformaciones
+
+### 📌 JavaScript
+- Introducción a JavaScript
+- Operadores lógicos y condicionales
+- Operadores de asignación y bucles
+- Funciones en JavaScript
+- Arrays y métodos de manipulación
+- Introducción al DOM
+- Eventos en DOM
+- LocalStorage y SessionStorage
+
+### 📌 Proyecto Integrador de HTML, CSS y JavaScript
+- Creación de la interfaz y funcionalidad de una tienda
+- Almacenamiento y gestión de productos en LocalStorage
+- Filtros, barra de búsqueda y media queries
+- Notificaciones y alertas personalizadas
+- Módulo de carrito de compras
+- Control de inventario y actualización en tiempo real
+- Refactorización y optimización del código
+
+### 📌 TypeScript
+- Instalaciones necesarias y configuración inicial
+- Modo Observador
+- Tipos de datos
+- Tipos de datos primitivos
+- Uso de `any` para tipos genéricos
+- Arrays y métodos de arrays
+- Objetos literales (introducción)
+- Creación de tipos personalizados (`type`)
+- Interfaces y aplicación de interfaces
+- Clases y POO (encapsulamiento, herencia y polimorfismo)
+- Genéricos en funciones y clases
+
+### 📌 React
+- Introducción a React
+- Configuración de un proyecto con React y TypeScript
+- Creación del primer componente
+- Uso de `useState` y `useEffect`
+- Creación de hooks personalizados (`useForm`)
+- Proyecto final: App con React
+  - Parte 1: estructura inicial y componentes principales
+  - Parte 2: funcionalidad y estado de la aplicación
 
 # 💻 Tech Stack:
 <div align="center">
@@ -238,8 +122,6 @@ El objetivo principal de este repositorio es proporcionar un entorno de aprendiz
   <img src="https://dbdb.io/media/logos/h2-logo.svg" height="40" alt="h2 logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo" />
 </div>
 
 # 🧑🏻‍💻 Autor:
